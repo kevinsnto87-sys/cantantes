@@ -112,12 +112,12 @@ const artistas = [
     spotifyEmbed: "https://open.spotify.com/embed/artist/12GqGscKJx3aE4t07u7eVZ"
   },
   {
-    nombre: "Wisin",
+    nombre: "Wisin & Yandel",
     pais: "Puerto Rico",
     ranking: 15,
     bio: "Leyenda del dúo Wisin & Yandel.",
     imagen: "https://i.scdn.co/image/ab6761610000e5ebabcdefabcdef1234567890",
-    spotifyEmbed: "https://open.spotify.com/embed/artist/3tJ6l2K4J9L5PpU2IbnmZx"
+    spotifyEmbed: "https://open.spotify.com/artist/1wZtkThiXbVNtj6hee6dz9?si=uXkgE1TTSke_FZTIVoX-hw"
   }
 ];
 
@@ -162,4 +162,5 @@ buscador.addEventListener("input", () => {
       a.pais.toLowerCase().includes(texto)
     )
   );
+
 });
